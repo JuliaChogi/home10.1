@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(236, 211, 238);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(14, 50px);
+    grid-template-rows: repeat(4, 50px);
+    grid-column-gap: 0.5rem;
+    grid-row-gap: 0.5rem;
+    grid-template-areas:
+    "a a b c d e e e e f f g h"
+    "a a i j j e e e e f f k l"
+    "m n n j j e e e e o o p p"
+    "q n n r s e e e e o o p p";
+    
+
+}
+
+.grid-item {
+    background-color: aquamarine;
+
+}
+
+.item1 {
+    background-image: url(./img/1.jpg);
+    grid-area: a;
+    background-size: cover;
+}
+
+.item2 {
+    background-image: url(./img/2.webp);
+    grid-area: b;
+    background-size: cover;
+}
+
+.item3 {
+    background-image: url(./img/3.jpg);
+    grid-area: c;
+    background-size: cover;
+}
+
+.item4 {
+    background-image: url(./img/4.png);
+    grid-area: d;
+    background-size: cover;
+}
+
+.item5 {
+    background-image: url(./img/5.webp);
+    grid-area: e;
+    background-size: cover;
+}
+
+.item6 {
+    background-image: url(./img/6.jpg);
+    grid-area: f;
+    background-size: cover;
+}
+
+.item7 {
+    background-image: url(./img/7.jpg);
+    grid-area: g;
+    background-size: cover;
+}
+
+.item8 {
+    background-image: url(./img/8.png);
+    grid-area: h;
+    background-size: cover;
+}
+
+.item9 {
+    background-image: url(./img/9.jpg);
+    grid-area: i;
+    background-size: cover;
+}
+
+.item10 {
+    background-image: url(./img/10.webp);
+    grid-area: j;
+    background-size: cover;
+}
+
+.item11 {
+    background-image: url(./img/11.jpg);
+    grid-area: k;
+    background-size: cover;
+}
+
+.item12 {
+    background-image: url(./img/12.jpg);
+    grid-area: l;
+    background-size: cover;
+}
+
+.item13 {
+    background-image: url(./img/13.jpg);
+    grid-area: m;
+    background-size: cover;
+}
+
+.item14 {
+    background-image: url(./img/14.png);
+    grid-area: n;
+    background-size: cover;
+}
+
+.item15 {
+    background-image: url(./img/15.jpg);
+    grid-area: o;
+    background-size: cover;
+}
+
+.item16 {
+    background-image: url(./img/16.png);
+    grid-area: p;
+    background-size: cover;
+}
+.item17 {
+    background-image: url(./img/17.jpg);
+    grid-area: q;
+    background-size: cover;
+}
+
+.item18 {
+    background-image: url(./img/18.png);
+    grid-area: r;
+    background-size: cover;
+}
+
+.item19 {
+    background-image: url(./img/19.png);
+    grid-area: s;
+    background-size: cover;
+}
